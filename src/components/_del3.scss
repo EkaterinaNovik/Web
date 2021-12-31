@@ -1,0 +1,38 @@
+.del3{
+    &__body{
+        display:flex;
+        position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: rgba(196, 196, 196, 0.5);
+    }
+
+    &__form{
+        position: absolute;
+        width: 540px;
+        height: 259px;
+        left: 690px;
+        top: 376px;
+
+        background: #FFFFFF;
+    }
+
+    &__text{
+        position: absolute;
+        width: 309px;
+        height: 74px;
+        left: 115px;
+        top: 93px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 37px;
+        
+        color: #000000    
+    }
+}

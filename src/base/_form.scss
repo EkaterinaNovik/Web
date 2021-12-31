@@ -1,0 +1,250 @@
+/*form for register*/
+@mixin form($formtop){
+position: absolute;
+width: 560px;
+height: 60px;
+left: 1194px;
+top: $formtop;
+background: #FFFFFF;
+
+&:checked{
+    color:red;
+    border: 2px solid red;
+}
+&:hover {  /*когда наводим*/
+    border: 2px solid #000000;
+}
+&:empty{ /*когда нажимаем*/
+     color: #000;
+     border:2px solid #000;
+}
+}
+@mixin text($width, $top1){
+position: absolute;
+width: $width;
+height: 27px;
+left: 1214px;
+top: $top1;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: left;
+
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.form1{   
+    @include text(410px,320px);
+    @include form(303px);
+}
+
+.form2{
+    @include text(253px,422px);
+    @include form(405px);   
+}
+
+.form3{
+    @include text(269px,524px);
+    @include form(507px);
+}
+
+.form4{ 
+    @include text(329px,626px);
+    @include form(609px);
+}
+
+.form5{
+    @include text(283px,728px);
+    @include form(711px);
+}
+/*form for enter*/
+
+@mixin formen($entop){
+    position: absolute;
+    width: 659px;
+    height: 70px;
+    left: 1064px;
+    top: $entop;
+    
+    background: #FFFFFF;
+    &:checked{
+        color:red;
+        border: 2px solid red;
+    }
+    &:hover {  /*когда наводим*/
+        border: 2px solid #000000;
+    }
+    &:empty{ /*когда нажимаем*/
+         color: #000;
+         border:2px solid #000;
+    }
+}
+@mixin texten($widthen,$entop1){
+    
+position: absolute;
+width: $widthen;
+height: 29px;
+left: 1085px;
+top: $entop1;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: left;
+
+color: rgba(0, 0, 0, 0.6);
+}
+.formen{
+    @include texten(143px,456px);
+    @include formen(434px);
+    
+}
+.formen2{
+    @include texten(120px,583px);
+    @include formen(561px);
+    
+}
+
+/*form for reviews*/
+@mixin formrev($heightrev,$toprev){
+position: absolute;
+width: 473px;
+height: $heightrev;
+left: 117px;
+top: $toprev;
+
+background: #FFFFFF;
+
+&:checked{
+    color:red;
+    border: 2px solid red;
+}
+&:hover {  /*когда наводим*/
+    border: 2px solid #000000;
+}
+&:empty{ /*когда нажимаем*/
+     color: #000;
+     border:2px solid #000;
+}
+}
+
+@mixin textrev($widthrev,$toprev1){
+    position: absolute;
+width: $widthrev;
+height: 20px;
+left: 1182px;
+top: $toprev1;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.formrev1{
+@include textrev(70px,113px);
+@include formrev(50px,98px);
+}
+
+.formrev2{
+@include textrev(135px,119px);
+@include formrev(50px,184px);
+}
+
+.formrev3{
+@include textrev(155px,285px);
+@include formrev(50px,270px);
+}
+
+.formrev4{ 
+@include textrev(143px,372px);
+@include formrev(50px,357px);
+}
+
+.formrev5{
+@include textrev(314px,462px);
+@include formrev(300px,444px);
+}
+
+@mixin pofform($top,$bottom){
+    position: absolute;
+    width: 447px;
+    height: 38px;
+    left: 245px;
+    top: $top;
+    right:93px;
+    bottom:$bottom;
+
+    background: #FFFFFF;
+}
+
+@mixin poftext($width,$top1){
+    position: absolute;
+    width: $width;
+    height: 15px;
+    left: 822px;
+    top: $top1;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pofpet{
+    @include poftext(81px,733px);
+    @include pofform(120px,722px);
+}
+
+.pofservice{
+    @include poftext(104px,657px);
+    @include pofform(196px,646px);
+}
+
+.pofpay{
+    @include poftext(161px, 237px);
+    @include pofform(617px,225px)
+}
+
+.pofpetsitter{
+    @include poftext(392px,159px);
+    @include pofform(694px,148px);
+    &:checked{
+        color:red;
+        border: 1px solid red;
+    }
+    &:hover {  /*когда наводим*/
+        border: 1px solid #000000;
+    }
+    &:empty{ /*когда нажимаем*/
+         color: #000;
+         border:1px solid #000;
+    }
+}

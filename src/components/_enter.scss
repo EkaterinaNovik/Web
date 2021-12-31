@@ -1,0 +1,153 @@
+.enter{
+    &__body{
+        display:flex;
+    }
+    &__enform{
+        position: absolute;
+        width: 752px;
+        height: 860px;
+        left: 1017px;
+        top: 110px;
+        right:151px;
+        bottom:110px;
+        background: rgba(255, 255, 255, 0.7);
+    }
+    
+    &__entext{
+        position: absolute;
+        width: 671px;
+        height: 176px;
+        left: 43px;
+        top: 82px;
+        right:38px;
+        bottom:602px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: rgba(0, 0, 0, 0.8);
+    }
+    &__enform2{
+        position: absolute;
+        width: 685px;
+        height: 284px;
+        left: 116px;
+        top: 397px;
+        right:1119px;
+        bottom:399px;
+        background: rgba(255, 255, 255, 0.65);
+    }
+
+    &__entext2{
+        position: absolute;
+        width: 434px;
+        height: 39px;
+        left: 51px;
+        top: 60px;
+        right:200px;
+        bottom:185px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+    &__entext3{
+        position: absolute;
+        width: 605px;
+        height: 84px;
+        left: 51px;
+        top: 130px;
+        right:29px;
+        bottom:70px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+
+        color: #000000;
+    }
+
+    &__passtxt{
+        position: absolute;
+        width: 290px;
+        height: 29px;
+        left: 1402px;
+        top: 698px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }
+    &__remember{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 1284px;
+        top: 784px;
+
+        background: #949494;
+        border-radius: 5px;
+    }
+    &__remtxt{
+        position: absolute;
+        width: 171px;
+        height: 27px;
+        left: 1317px;
+        top: 781px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    &__mbreg{
+        position: absolute;
+        width: 336px;
+        height: 32px;
+        left: 1225px;
+        top: 838px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 32px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+}

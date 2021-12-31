@@ -1,0 +1,75 @@
+.header{
+    &__body{
+        display:flex;
+        width:1920px;
+        height:70px;
+        background:$pearlescent-copper4;
+    }
+
+    &__logo{
+        position: absolute;
+        width: 162.55px;
+        height: 42px;
+        left: 110px;
+        top:11px;
+        bottom: 17px;
+        right:1647.45px;
+       
+    }
+
+    &__auhdr{
+        position: absolute;
+        width: 94px;
+        height: 24px;
+        left:1370px;
+        top:23px;
+        right: 459px;
+        bottom: 23px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        /* WHITE */
+        color: #FFFFFF;
+    }
+
+    &__revhdr{
+        position: absolute;
+        width: 82px;
+        height: 24px;
+        left:1541px;
+        top:23px;
+        right: 297px;
+        bottom: 23px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        /* WHITE */
+        color: #FFFFFF;
+    }
+
+    &__myacchdr{
+        position: absolute;
+        width: 120px;
+        height: 24px;
+        left:1703px;
+        top:23px;
+        right: 100px;
+        bottom: 23px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        /* WHITE */
+
+        color: #FFFFFF;
+    }
+}

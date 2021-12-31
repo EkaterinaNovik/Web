@@ -1,0 +1,523 @@
+.sfhts{
+    &__body{
+        display:flex;
+    }
+    &__bread{
+        position: absolute;
+width: 419px;
+height: 27px;
+left: 750px;
+top: 21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    }
+    /*1*/
+    &__ph1{
+        position: absolute;
+        width: 452px;
+        height: 264px;
+        left: 127px;
+        top: 91px;
+        right:1341px;
+        bottom:724px;
+    }
+
+    &__acc1{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 546px;
+        top: 316px;
+    }
+
+    &__nm1{
+        position: absolute;
+        width: 273px;
+        height: 34px;
+        left: 125px;
+        top: 370px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #000000;
+    }
+
+    &__txt1{
+        position: absolute;
+        width: 245px;
+        height: 24px;
+        left: 125px;
+        top: 419px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__text1{
+        position: absolute;
+        width: 107px;
+        height: 24px;
+        left: 125px;
+        top: 458px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__pet1{
+        position: absolute;
+        width: 121px;
+        height: 27px;
+        left: 127px;
+        top: 496px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+        color: #000000;
+    }
+
+    /*2*/
+    &__ph2{
+        position: absolute;
+        width: 452px;
+        height: 264px;
+        left: 733px;
+        top: 92px;
+        right:735px;
+        bottom:724px;
+    }
+
+    &__acc2{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 1152px;
+        top: 316px;
+    }
+
+    &__nm2{
+        position: absolute;
+        width: 415px;
+        height: 34px;
+        left: 733px;
+        top: 371px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #000000;
+    }
+
+    &__txt2{
+        position: absolute;
+        width: 253px;
+        height: 24px;
+        left: 733px;
+        top: 420px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__text2{
+        position: absolute;
+        width: 147px;
+        height: 24px;
+        left: 733px;
+        top: 460px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__pet2{
+        position: absolute;
+        width: 143px;
+        height: 27px;
+        left: 733px;
+        top: 497px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+        color: #000000; 
+    }
+
+    /*3*/
+    &__ph3{
+        position: absolute;
+        width: 452px;
+        height: 264px;
+        left: 1339px;
+        top: 91px;
+        right:129px;
+        bottom:724px;
+    }
+
+    &__acc3{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 1758px;
+        top: 316px;
+
+    }
+
+    &__nm3{
+        position: absolute;
+        width: 238px;
+        height: 34px;
+        left: 1339px;
+        top: 370px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #000000;
+    }
+
+    &__txt3{
+        position: absolute;
+        width: 254px;
+        height: 24px;
+        left: 1339px;
+        top: 419px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__text3{
+        position: absolute;
+        width: 138px;
+        height: 24px;
+        left: 1339px;
+        top: 459px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__pet3{
+        position: absolute;
+        width: 88px;
+        height: 27px;
+        left: 1339px;
+        top: 496px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */      
+        color: #000000;   
+    }
+    /*4*/
+    &__ph4{
+        position: absolute;
+        width: 452px;
+        height: 264px;
+        left: 125px;
+        top: 553px;
+        right:1343px;
+        bottom:262px;
+
+    }
+
+    &__acc4{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 546px;
+        top: 784px;
+    }
+
+    &__nm4{
+        position: absolute;
+        width: 238px;
+        height: 34px;
+        left: 125px;
+        top: 835px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #000000;
+    }
+
+    &__txt4{
+        position: absolute;
+        width: 251px;
+        height: 24px;
+        left: 125px;
+        top: 884px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__text4{
+        position: absolute;
+        width: 255px;
+        height: 24px;
+        left: 125px;
+        top: 923px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__pet4{
+        position: absolute;
+        width: 76px;
+        height: 27px;
+        left: 127px;
+        top: 961px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+        color: #000000;  
+    }
+
+    /*5*/
+    &__ph5{
+        position: absolute;
+        width: 452px;
+        height: 264px;
+        left: 733px;
+        top: 553px;
+        right:735px;
+        bottom:262px;
+    }
+
+    &__acc5{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 1152px;
+        top: 784px;
+          
+    }
+
+    &__nm5{
+        position: absolute;
+        width: 300px;
+        height: 34px;
+        left: 733px;
+        top: 832px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #000000;
+    }
+
+    &__txt5{
+        position: absolute;
+        width: 248px;
+        height: 24px;
+        left: 733px;
+        top: 881px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__text5{
+        position: absolute;
+        width: 143px;
+        height: 24px;
+        left: 733px;
+        top: 921px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__pet5{
+        position: absolute;
+        width: 206px;
+        height: 27px;
+        left: 733px;
+        top: 958px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+    /*6*/
+    &__ph6{
+        position: absolute;
+        width: 452px;
+        height: 264px;
+        left: 1339px;
+        top: 553px;
+        right:129px;
+        bottom:262px;
+    }
+
+    &__acc6{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 1758px;
+        top: 784px;
+
+    }
+
+    &__nm6{
+        position: absolute;
+        width: 168px;
+        height: 34px;
+        left: 1339px;
+        top: 832px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #000000;
+    }
+
+    &__txt6{
+        position: absolute;
+        width: 248px;
+        height: 24px;
+        left: 1339px;
+        top: 881px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__text6{
+        position: absolute;
+        width: 285px;
+        height: 24px;
+        left: 1339px;
+        top: 921px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    &__pet6{
+        position: absolute;
+        width: 150px;
+        height: 27px;
+        left: 1339px;
+        top: 958px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+        color: #000000;  
+    }
+}

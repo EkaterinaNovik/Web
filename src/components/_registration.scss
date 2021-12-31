@@ -1,0 +1,39 @@
+.registration{
+   &__body{
+        display:flex;
+}
+&__regform{
+
+    /*form*/
+    position: absolute;
+    width: 693px;
+    height: 811px;
+    left: 1127px;
+    top: 135px;
+    
+    background: linear-gradient(119.98deg, rgba(152, 146, 146, 0.396) 7.53%, rgba(239, 239, 239, 0.27) 100.72%);
+    backdrop-filter: blur(20px);
+    border:1px solid linear-gradient(119.98deg, rgba(255, 255, 255, 0.67) 7.53%, rgba(255, 255, 255, 0.07) 100.72%);;
+}
+&__regtext{
+    /*regtext*/
+    position: absolute;
+    width: 323px;
+    height: 74px;
+    left: 67px;
+    right:303px;
+    top: 52px;
+    bottom: 685px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+}

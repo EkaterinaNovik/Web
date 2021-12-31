@@ -1,0 +1,143 @@
+.au{
+
+    &__body{
+        display:flex;
+    }
+
+    &__bread{
+        position: absolute;
+width: 277px;
+height: 27px;
+left: 822px;
+top: 21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    }
+
+    &__maintxt{
+        position: absolute;
+        width: 1094px;
+        height: 44px;
+        left: 415px;
+        top: 108px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #401E12;
+    }
+
+    &__form1{
+        position: absolute;
+        width: 785px;
+        height: 756px;
+        left: 107px;
+        top: 190px;
+
+        background: rgba(191, 117, 90, 0.7);
+    }
+
+    &__txtform1{
+        position: absolute;
+        width: 659px;
+        height: 65px;
+        left: 89px;
+        top: 50px;
+        right:37px;
+        bottom:641px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 42px;
+
+        color: #000000;
+    }
+
+    &__form2{
+        position: absolute;
+        width: 785px;
+        height: 756px;
+        left: 1026px;
+        top: 190px;
+
+        background: rgba(191, 117, 90, 0.7);
+    }
+
+    &__txtform2{
+        position: absolute;
+        width: 669px;
+        height: 546px;
+        left: 67px;
+        top: 77px;
+        right:49px;
+        bottom:133px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    &__txt2form2{
+        position: absolute;
+        width: 661px;
+        height: 61px;
+        left: 67px;
+        top: 659px;
+        right:57px;
+        bottom:36px;
+
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #000000;
+    }
+
+    &__vecform2{
+        position: absolute;
+        width: 13px;
+        height: 61px;
+        left: 27px;
+        top: 659px;
+        right:745px;
+        bottom:36px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 61px;
+        /* identical to box height */
+      color: #000000;
+    }
+    &__map{
+        position: absolute;
+        width: 618px;
+        height: 507px;
+        left: 88px;
+        top: 179px;
+    }
+}
